@@ -6,14 +6,21 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://example.com">
-  <title>Archives | Hexo</title>
+  <title>团餐企业AI系统(PRD) | Hexo</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Hexo">
-<meta property="og:url" content="http://example.com/archives/index.html">
+  <meta name="description" content="产品需求说明文档">
+<meta property="og:type" content="article">
+<meta property="og:title" content="团餐企业AI系统(PRD)">
+<meta property="og:url" content="http://example.com/2025/09/05/ai-meal-prd/index.html">
 <meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="产品需求说明文档">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-09-05T07:30:16.000Z">
+<meta property="article:modified_time" content="2025-09-09T10:56:04.435Z">
 <meta property="article:author" content="John Doe">
+<meta property="article:tag" content="tag1">
+<meta property="article:tag" content="tag2">
+<meta property="article:tag" content="tag3">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="Hexo" type="application/atom+xml">
@@ -150,36 +157,212 @@
             <canvas data-colors="#eaeaea" data-sectionHeight="100" data-contentId="js-content" id="myCanvas1" class="anm-canvas"></canvas>
           </div>
           <div id="js-content" class="content-ll">
-            
-  
-  
+            <article id="post-ai-meal-prd" class="article article-type-post " itemscope itemprop="blogPost">
+  <div class="article-inner">
     
-    
-      
-      
-      <section class="archives-wrap">
-        <div class="archive-year-wrap">
-          <a href="/archives/2025" class="archive-year">2025</a>
-        </div>
-        <div class="archives">
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2025/09/05/ai-meal-prd/" class="archive-article-date">
-  	<time datetime="2025-09-05T07:30:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2025-09-05</time>
-</a>
-        </div>
-    	 
+      <header class="article-header">
+        
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2025/09/05/ai-meal-prd/">团餐企业AI系统(PRD)</a>
+    <h1 class="article-title" itemprop="name">
+      团餐企业AI系统(PRD)
     </h1>
   
 
-        <div class="article-info info-on-right">
-          
+        
+        <a href="/2025/09/05/ai-meal-prd/" class="archive-article-date">
+  	<time datetime="2025-09-05T07:30:16.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2025-09-05</time>
+</a>
+        
+      </header>
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h2 id="一、产品背景"><a href="#一、产品背景" class="headerlink" title="一、产品背景"></a>一、产品背景</h2><p>团餐企业在运营过程中，普遍面临 <strong>菜单重复、客户满意度低、食材浪费严重、成本难以控制</strong> 等问题。当前多数流程依赖厨政经验和人工判断，缺乏科学化与数据驱动的决策。目标是通过 <strong>AI 驱动的智能系统</strong>，帮助企业在菜单设计、用料预测、成本控制三大环节实现降本增效。</p>
+<span id="more"></span>
+<hr>
+<h2 id="二、目标与价值"><a href="#二、目标与价值" class="headerlink" title="二、目标与价值"></a>二、目标与价值</h2><ol>
+<li><strong>提升出餐效率</strong>：自动生成合理菜单，减少人工设计时间。</li>
+<li><strong>降低食材浪费</strong>：基于销量预测和 BOM 用料表，精准计算用料。</li>
+<li><strong>控制成本</strong>：实时监控食材价格波动，提供替代方案和预警。</li>
+<li><strong>提升客户满意度</strong>：兼顾口味偏好与营养标准，生成优化菜单。</li>
+<li><strong>数据透明化</strong>：可视化的成本与运营报告，辅助管理决策。</li>
+</ol>
+<hr>
+<h2 id="三、用户角色"><a href="#三、用户角色" class="headerlink" title="三、用户角色"></a>三、用户角色</h2><ul>
+<li><strong>厨政&#x2F;食堂经理</strong>：需要菜单建议、营养平衡提醒、成本预警。</li>
+<li><strong>采购人员</strong>：需要用料预测、采购清单、供应链异常提示。</li>
+<li><strong>企业老板&#x2F;决策层</strong>：需要数据透明、成本控制和趋势报告。</li>
+<li><strong>最终消费者（员工&#x2F;客户）</strong>：间接受益于更健康、稳定和多样的菜品选择。</li>
+</ul>
+<hr>
+<h2 id="四、核心功能模块"><a href="#四、核心功能模块" class="headerlink" title="四、核心功能模块"></a>四、核心功能模块</h2><h3 id="1-菜单优化模块"><a href="#1-菜单优化模块" class="headerlink" title="1. 菜单优化模块"></a>1. 菜单优化模块</h3><p><strong>功能点：</strong></p>
+<ul>
+<li>一键生成当周菜单（基于成本、销量、营养、口味偏好）</li>
+<li>热销菜&#x2F;新品推荐</li>
+<li>营养平衡优化（满足企业合同或营养指标）</li>
+</ul>
+<p><strong>交互方式：</strong></p>
+<ul>
+<li>可视化菜单推荐（成本、营养雷达图）</li>
+<li>手动调整并保存个性化菜单</li>
+</ul>
+<hr>
+<h3 id="2-用料预测模块"><a href="#2-用料预测模块" class="headerlink" title="2. 用料预测模块"></a>2. 用料预测模块</h3><p><strong>功能点：</strong></p>
+<ul>
+<li>菜品销量预测（历史趋势 + 天气 + 节假日 + 人数变化）</li>
+<li>自动计算所需食材（销量预测 × BOM 用料表）</li>
+<li>多站点共菜需求整合 → 联合采购</li>
+</ul>
+<p><strong>交互方式：</strong></p>
+<ul>
+<li>「明日采购清单」自动生成</li>
+<li>按供应商&#x2F;食材维度汇总采购需求</li>
+</ul>
+<hr>
+<h3 id="3-成本控制模块"><a href="#3-成本控制模块" class="headerlink" title="3. 成本控制模块"></a>3. 成本控制模块</h3><p><strong>功能点：</strong></p>
+<ul>
+<li>实时成本计算与浮动预警</li>
+<li>食材替换推荐（基于营养成分&#x2F;口味相似度）</li>
+<li>供应链异常监控（价格波动、缺货趋势）</li>
+</ul>
+<p><strong>交互方式：</strong></p>
+<ul>
+<li>「采购报警提示」实时推送给厨政&#x2F;采购</li>
+<li>「成本趋势报告」提供给管理层</li>
+</ul>
+<hr>
+<h3 id="4-数据与报告模块"><a href="#4-数据与报告模块" class="headerlink" title="4. 数据与报告模块"></a>4. 数据与报告模块</h3><p><strong>功能点：</strong></p>
+<ul>
+<li>历史数据归档与分析</li>
+<li>AI 优化建议可视化报告</li>
+<li>成本、营收、客户满意度趋势展示</li>
+</ul>
+<p><strong>交互方式：</strong></p>
+<ul>
+<li>BI 报表（支持 ECharts&#x2F;PowerBI&#x2F;Tableau）</li>
+<li>导出 PDF&#x2F;Excel 报告</li>
+</ul>
+<hr>
+<h2 id="五、算法方案"><a href="#五、算法方案" class="headerlink" title="五、算法方案"></a>五、算法方案</h2><ol>
+<li><p><strong>菜单组合优化</strong>  </p>
+<ul>
+<li>多目标优化（成本最小化 + 偏好最大化 + 营养约束）</li>
+<li>技术：线性规划 &#x2F; 遗传算法 &#x2F; 推荐系统</li>
+</ul>
+</li>
+<li><p><strong>销量预测模型</strong>  </p>
+<ul>
+<li>时间序列模型（ARIMA、Prophet）</li>
+<li>机器学习（XGBoost、LightGBM）</li>
+<li>深度学习（LSTM、TFT）</li>
+<li>特征：历史销量、天气、节假日、就餐人数</li>
+</ul>
+</li>
+<li><p><strong>食材用量计算</strong>  </p>
+<ul>
+<li>规则计算（销量预测 × BOM 用料表）</li>
+<li>可叠加安全冗余系数</li>
+</ul>
+</li>
+<li><p><strong>多站点采购优化</strong>  </p>
+<ul>
+<li>聚合优化，类似库存与批量采购模型</li>
+</ul>
+</li>
+<li><p><strong>成本监控与预警</strong>  </p>
+<ul>
+<li>基于实时食材单价波动，结合历史均值&#x2F;方差设定阈值</li>
+<li>异常检测算法（Isolation Forest）</li>
+</ul>
+</li>
+<li><p><strong>食材替换推荐</strong>  </p>
+<ul>
+<li>食材向量化（营养成分、口味标签）</li>
+<li>相似度匹配（余弦相似度 &#x2F; Embedding 检索）</li>
+</ul>
+</li>
+<li><p><strong>营养平衡优化</strong>  </p>
+<ul>
+<li>约束优化（满足合同指标，限制高油高盐）</li>
+</ul>
+</li>
+<li><p><strong>供应链异常检测</strong>  </p>
+<ul>
+<li>时间序列预测 + 偏离检测</li>
+<li>异常模式识别</li>
+</ul>
+</li>
+</ol>
+<hr>
+<h2 id="六、MVP-版本规划"><a href="#六、MVP-版本规划" class="headerlink" title="六、MVP 版本规划"></a>六、MVP 版本规划</h2><ol>
+<li><strong>版本 1.0（核心验证）</strong></li>
+</ol>
+<ul>
+<li>菜单推荐（基于历史销量 + 成本规则）</li>
+<li>用料预测（简单回归 + BOM 计算）</li>
+<li>成本预警（基于单价波动阈值）</li>
+</ul>
+<ol start="2">
+<li><strong>版本 2.0（优化升级）</strong></li>
+</ol>
+<ul>
+<li>引入天气&#x2F;节假日数据，改进预测精度</li>
+<li>菜单多目标优化（成本 + 偏好 + 营养）</li>
+<li>食材替换推荐模块上线</li>
+</ul>
+<ol start="3">
+<li><strong>版本 3.0（全面智能化）</strong></li>
+</ol>
+<ul>
+<li>联合供应链系统，支持动态调价 &amp; 自动下单</li>
+<li>个性化口味建模（基于客户评分）</li>
+<li>端到端 AI 决策闭环（菜单 → 采购 → 成本 → 反馈）</li>
+</ul>
+<hr>
+<h2 id="七、关键指标（KPI）"><a href="#七、关键指标（KPI）" class="headerlink" title="七、关键指标（KPI）"></a>七、关键指标（KPI）</h2><ul>
+<li><strong>食材浪费率下降 ≥ 15%</strong></li>
+<li><strong>采购成本降低 ≥ 10%</strong></li>
+<li><strong>菜单满意度提升 ≥ 20%</strong></li>
+<li><strong>成本预警响应时间 ≤ 1 小时</strong></li>
+</ul>
+<hr>
+<h2 id="八、风险与挑战"><a href="#八、风险与挑战" class="headerlink" title="八、风险与挑战"></a>八、风险与挑战</h2><ul>
+<li><strong>数据质量</strong>：历史销量数据缺失或不完整 → 需数据清洗与补全</li>
+<li><strong>模型泛化</strong>：不同食堂差异大，需场景化微调模型</li>
+<li><strong>用户接受度</strong>：厨政人员习惯依赖经验 → 需加强可解释性与培训</li>
+<li><strong>供应链对接</strong>：供应商系统兼容性与 API 接口稳定性</li>
+</ul>
+<hr>
+<h2 id="九、总结"><a href="#九、总结" class="headerlink" title="九、总结"></a>九、总结</h2><p>通过 AI 驱动的菜单优化、用料预测和成本控制系统，团餐企业可实现 <strong>降本增效 + 提升满意度 + 数据化管理</strong>。产品将分阶段迭代，逐步从规则驱动走向全智能闭环决策，最终成为企业运营的智能大脑。</p>
+
+      
+
+      
+        <div class="page-reward">
+          <a href="javascript:;" class="page-reward-btn tooltip-top">
+            <div class="tooltip tooltip-east">
+            <span class="tooltip-item">
+              赏
+            </span>
+            <span class="tooltip-content">
+              <span class="tooltip-text">
+                <span class="tooltip-inner">
+                  <p class="reward-p"><i class="icon icon-quo-left"></i>谢谢你请我吃糖果<i class="icon icon-quo-right"></i></p>
+                  <div class="reward-box">
+                    
+                    
+                  </div>
+                </span>
+              </span>
+            </span>
+          </div>
+          </a>
+        </div>
+      
+    </div>
+    <div class="article-info article-info-index">
+      
+      
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -199,7 +382,7 @@
 		</ul>
 	</div>
 
-          
+      
 	<div class="article-category tagcloud">
 		<i class="icon-book icon"></i>
 		<ul class="article-tag-list">
@@ -212,44 +395,104 @@
 	</div>
 
 
+      
+
+      
+        
+<div class="share-btn share-icons tooltip-left">
+  <div class="tooltip tooltip-east">
+    <span class="tooltip-item">
+      <a href="javascript:;" class="share-sns share-outer">
+        <i class="icon icon-share"></i>
+      </a>
+    </span>
+    <span class="tooltip-content">
+      <div class="share-wrap">
+        <div class="share-icons">
+          <a class="weibo share-sns" href="javascript:;" data-type="weibo">
+            <i class="icon icon-weibo"></i>
+          </a>
+          <a class="weixin share-sns wxFab" href="javascript:;" data-type="weixin">
+            <i class="icon icon-weixin"></i>
+          </a>
+          <a class="qq share-sns" href="javascript:;" data-type="qq">
+            <i class="icon icon-qq"></i>
+          </a>
+          <a class="douban share-sns" href="javascript:;" data-type="douban">
+            <i class="icon icon-douban"></i>
+          </a>
+          <a class="qzone share-sns" href="javascript:;" data-type="qzone">
+            <i class="icon icon-qzone"></i>
+          </a>
+          <a class="facebook share-sns" href="javascript:;" data-type="facebook">
+            <i class="icon icon-facebook"></i>
+          </a>
+          <a class="twitter share-sns" href="javascript:;" data-type="twitter">
+            <i class="icon icon-twitter"></i>
+          </a>
+          <a class="google share-sns" href="javascript:;" data-type="google">
+            <i class="icon icon-google"></i>
+          </a>
         </div>
-        <div class="clearfix"></div>
-    </header>
+      </div>
+    </span>
+  </div>
+</div>
+
+<div class="page-modal wx-share js-wx-box">
+    <a class="close js-modal-close" href="javascript:;"><i class="icon icon-close"></i></a>
+    <p>扫一扫，分享到微信</p>
+    <div class="wx-qrcode">
+      <img src="//pan.baidu.com/share/qrcode?url=http://example.com/2025/09/05/ai-meal-prd/" alt="微信分享二维码">
+    </div>
+</div>
+
+<div class="mask js-mask"></div>
+      
+      <div class="clearfix"></div>
+    </div>
   </div>
 </article>
+
   
-    
-    
-    <article class="archive-article archive-type-post">
-  <div class="archive-article-inner">
-    <header class="archive-article-header">
-      	<div class="article-meta">
-	      	<a href="/2025/09/03/hello-world/" class="archive-article-date">
-  	<time datetime="2025-09-03T10:35:44.973Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2025-09-03</time>
-</a>
+<nav id="article-nav">
+  
+  
+    <a href="/2025/09/03/hello-world/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title">Hello World</div>
+      <i class="icon-circle-right"></i>
+    </a>
+  
+</nav>
+
+
+<aside class="wrap-side-operation">
+    <div class="mod-side-operation">
+        
+        <div class="jump-container" id="js-jump-container" style="display:none;">
+            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
+                <i class="icon-font icon-back"></i>
+            </a>
+            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
+                <i class="icon-font icon-plane jump-plane"></i>
+            </div>
         </div>
-    	 
+        
+        
+    </div>
+</aside>
+
+
+
   
-    <h1 itemprop="name">
-      <a class="archive-article-title" href="/2025/09/03/hello-world/">Hello World</a>
-    </h1>
+  
   
 
-        <div class="article-info info-on-right">
-          
-          
-
-        </div>
-        <div class="clearfix"></div>
-    </header>
-  </div>
-</article>
-  
-  
-    </div></section>
   
 
-    
+  
+
+  
 
 
           </div>
@@ -272,8 +515,8 @@
 	var yiliaConfig = {
 		mathjax: false,
 		isHome: false,
-		isPost: false,
-		isArchive: true,
+		isPost: true,
+		isArchive: false,
 		isTag: false,
 		isCategory: false,
 		open_in_new: false,
